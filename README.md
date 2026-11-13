@@ -2,7 +2,7 @@
 
 
 
-Projet du module cloude et virtualisation : démonstration de la virtualisation de données
+Projet du module cloud et virtualisation : démonstration de la virtualisation de données
 
 avec Dremio, PostgreSQL et des fichiers CSV.
 
