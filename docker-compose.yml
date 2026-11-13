@@ -1,0 +1,19 @@
+services:
+  dremio:
+    image: dremio/dremio-oss
+    container_name: dremio
+    ports:
+      - "9047:9047"
+      - "31010:31010"
+      - "32010:32010"
+    volumes:
+      - ./data:/data
+  postgres:
+    image: postgres:15
+    container_name: postgres
+    environment:
+      POSTGRES_USER: demo
+      POSTGRES_PASSWORD: demo
+      POSTGRES_DB: shop
+    ports:
+      - "5432:5432"
