@@ -3,3 +3,4 @@
 .DS_Store
 pgdata/
 dremio-data/
+data/*.csv
